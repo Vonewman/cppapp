@@ -1,0 +1,3 @@
+/home/geek/cppapp/cmake/helloworld/CMakeFiles/rebuild_cache.dir
+/home/geek/cppapp/cmake/helloworld/CMakeFiles/hello.dir
+/home/geek/cppapp/cmake/helloworld/CMakeFiles/edit_cache.dir
