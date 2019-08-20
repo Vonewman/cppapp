@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+class Rectangle{
+  double surface() { return longueur*largeur; }
+  double longueur;
+  double largeur;
+};
+
+int main() {
+  Rectangle rect; // instance de la classe Rectangle
+  rect.largeur = 1.5;
+  rect.longueur = 12.8;
+  cout << "Surface : " << rect.surface() << endl;
+  return 0;
+}

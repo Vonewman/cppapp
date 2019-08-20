@@ -1,3 +1,0 @@
-/home/geek/cppapp/cmake/Personnage/build/CMakeFiles/rebuild_cache.dir
-/home/geek/cppapp/cmake/Personnage/build/CMakeFiles/testPersonnage.dir
-/home/geek/cppapp/cmake/Personnage/build/CMakeFiles/edit_cache.dir
