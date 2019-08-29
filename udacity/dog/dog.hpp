@@ -6,39 +6,34 @@ using namespace std;
 
 class Dog
 {
-    string name;
-    int licenseNumber;
-public:
-    void setName(string nameIn);
-    void setLicenseNumber(int licenseNumberIn);
-    string getName();
-    int getLicenseNumber();
-    void printInfo();
+    private:
+        int license;
+    public:
+        Dog();
+        Dog(int licenseIn);
+        void setLicense(int licenseIn);
+        int getLicense();
+        ~Dog();
 };
 
-void Dog::setName(string nameIn)
+Dog::Dog()
 {
-    name = nameIn;
+   license = 0;
 }
 
-void Dog::setLicenseNumber(int licenseNumberIn)
+Dog::~Dog()
 {
-    licenseNumber=licenseNumberIn;
+    cout<<"\nDeleting the dog";
 }
-
-string Dog::getName()
+Dog::Dog(int licenseIn)
 {
-    return name;
+   license = licenseIn; 
 }
-
-int Dog::getLicenseNumber()
+void Dog::setLicense(int licenseIn)
 {
-    return licenseNumber;
+    license = licenseIn;
 }
- 
-void Dog::printInfo()
+int Dog::getLicense()
 {
-    cout << name << " " << licenseNumber << "\n";
+    return license;
 }
-    
-

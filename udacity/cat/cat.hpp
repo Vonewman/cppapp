@@ -2,13 +2,14 @@
 #include <string>
 using namespace std;
 
-class Cat 
+class Cats 
 {
 
     string name;
     string breed;
     int age;
 public:
+    Cats(); //declaring the constructor
     void setName(string nameIn);
     void setBreed(string breedIn);
     void setAge(int ageIn);
@@ -18,37 +19,44 @@ public:
     void printInfo();
 };
 
-void Cat::setName(string nameIn)
+Cats::Cats()
+{
+    cout<<"Assigning inital values in the constructor\n";
+    name = "Unknown";
+    breed = "Unknown"; //the initial value of the breed
+    age = 99; //the initial value of the age
+}
+void Cats::setName(string nameIn)
 {
     name = nameIn;
 }
 
-void Cat::setBreed(string breedIn)
+void Cats::setBreed(string breedIn)
 {
     breed = breedIn;
 }
 
-void Cat::setAge(int ageIn)
+void Cats::setAge(int ageIn)
 {
     age = ageIn;    
 }
 
-string Cat::getName()
+string Cats::getName()
 {
     return name;
 }
 
-string Cat::getBreed()
+string Cats::getBreed()
 {
     return breed;
 }
 
-int Cat::getAge()
+int Cats::getAge()
 {
     return age;
 }
 
-void Cat::printInfo()
+void Cats::printInfo()
 {
     cout<<name << " " << breed << " "<<age<<"\n";
 }

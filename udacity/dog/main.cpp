@@ -1,18 +1,9 @@
-#include"dog.hpp"
+#include "dog.hpp"
 
 int main()
 {
-    Dog dog1;
-    Dog dog2;
-    
-    dog1.setName("Trixie");
-    dog2.setName("Kali");
-    
-    dog1.setLicenseNumber(1234);
-    dog2.setLicenseNumber(5678);
-    
-    dog1.printInfo();
-    dog2.printInfo();
-    
+    Dog d2(666666);
+    cout << d2.getLicense();
+        
     return 0;
 }
