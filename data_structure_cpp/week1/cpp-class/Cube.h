@@ -7,7 +7,7 @@
 
 
 
-#program once
+#pragma once
 
 class Cube {
  public:
