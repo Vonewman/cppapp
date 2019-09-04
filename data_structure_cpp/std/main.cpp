@@ -14,7 +14,7 @@ int main() {
     std::cout << "Volume: " << c.getVolume() << std::endl;
 
     double surfaceArea = c.getSurfaceArea();
-    std::cout << "Surface Area: " << surfaceArea << std:endl;
+    std::cout << "Surface Area: " << surfaceArea << std::endl;
 
     return 0;
 }
