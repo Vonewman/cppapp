@@ -1,0 +1,3 @@
+/home/geek/cppapp/ordered_data_structures/arrays/ex2/CMakeFiles/rebuild_cache.dir
+/home/geek/cppapp/ordered_data_structures/arrays/ex2/CMakeFiles/main.dir
+/home/geek/cppapp/ordered_data_structures/arrays/ex2/CMakeFiles/edit_cache.dir
